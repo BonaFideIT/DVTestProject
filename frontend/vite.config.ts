@@ -13,7 +13,7 @@ export default defineConfig({
     outDir: resolve(__dirname, './dist'),
     rollupOptions: {
       input: {
-        foo: resolve(__dirname, './src/main.ts'),
+        foo: resolve(__dirname, '../apps/foo/templates/foo/frontend/src/main.ts'),
       },
       output: {
         assetFileNames: "[name]/main.[ext]",

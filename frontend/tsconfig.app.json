@@ -16,5 +16,9 @@
     "isolatedModules": true,
     "moduleDetection": "force"
   },
-  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
+  "include": [
+    "../apps/*/templates/*/frontend/src/**/*.ts",
+    "../apps/*/templates/*/frontend/src/**/*.js",
+    "../apps/*/templates/*/frontend/src/**/*.svelte",
+  ],
 }
