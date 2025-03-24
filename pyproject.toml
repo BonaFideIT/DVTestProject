@@ -1,0 +1,10 @@
+[project]
+name = "dvtestproject"
+version = "0.1.0"
+description = "Test Project for Django Vite"
+requires-python = ">=3.11"
+dependencies = [
+    "django ~=4.2.20",
+    "django_vite ~=3.1.0",
+    "nodeenv ~=1.9.1",
+]
